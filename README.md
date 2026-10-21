@@ -1,19 +1,21 @@
 # karolina apanasewicz || portfolio
 
-An English-language, responsive portfolio for styling, creative direction and fashion design. Built with HTML, CSS and JavaScript; no dependencies or build step.
+A responsive English-language visual notebook for styling, creative direction and fashion design. Static HTML, CSS and JavaScript; no dependencies or build step.
 
-## Run locally or in the cloud
+## Development
 
-From `/workspace/portfolio`:
+Use the existing checkout; no worktree is required. From `/workspace/portfolio`, run:
 
 ```sh
 python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
-## Add your work
+## Demonstration imagery
 
-The abstract panels are clearly labelled placeholders, not portfolio photographs. Add your own photographs in an `images/` folder, then replace each `.project-image` placeholder in `index.html` with an image using meaningful alt text. Keep the surrounding article and its `data-category` attribute for filtering. Add project titles, descriptions and collaborator credits with their permission. Replace the biography and contact placeholders before publishing. Avoid publishing private information or images you do not have permission to share.
+`images/editorial-studies.png` is an original AI-generated contact sheet created for this visual preview. The six fictional fashion images are labelled as demonstrations on the page and in the image viewer. They are not Karolina's portfolio work. No Pinterest photographs are included. CSS displays individual cells without separate image downloads or third-party image services.
 
-## Publish
+Before final publication of a real portfolio, replace the demonstration images, project titles, biography and contact placeholders with approved personal work, accurate descriptions and collaborator credits. Each article's `data-category` supports filtering. Each image button opens the keyboard-accessible image dialog; Escape closes it and returns focus.
 
-Push these files to your GitHub repository. In the repository's Settings → Pages, choose deployment from your branch and its root directory. No build step is needed. Publication is separate from creating these files and has not been performed automatically.
+## Publication
+
+GitHub Pages serves the repository root on the `karolina_apanasewicz_portfolio` branch. Push updates to that branch. The custom domain field should remain empty when using the default GitHub Pages address. Publication and its status are managed by GitHub.
